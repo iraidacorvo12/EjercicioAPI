@@ -1,0 +1,39 @@
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#pageContainer{
+    text-align: center;
+}
+
+#loadingMessage {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+#playButton, #pauseButton, #volumeUpButton, #volumeDownButton{
+    border-block-color: black;
+    margin: 0px 10px;
+}
+    
+#fileInput{
+    margin: 10px 0px 20px;
+}
+#videoPlayer {
+    width: 640px;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
